@@ -34,9 +34,9 @@ ul {
 img.image-center {
     display: block;
     margin: 10px auto;
-    width: 50%;
-    max-width: 100px;
-    height: 50%;
+    width: 50%; 
+    max-width: 200px; 
+    height: auto; 
 }
 
 footer {
