@@ -5,11 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>鯨魚的介紹</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- 引入 jQuery -->
+    <script>
+        $(document).ready(function() {
+            $("#toggle-button").click(function() {
+                $("#toggle-content").toggle(); // 切換內容顯示
+            });
+
+            $("h1").click(function() {
+                $(this).css("background-color", "yellow"); // 點擊標題改變背景顏色
+            });
+            
+            $("img").click(function() {
+                $(this).fadeOut(); // 點擊圖片時淡出
+            });
+        });
+    </script>
 </head>
 <body>
     <header>
         <h1>鯨魚的世界</h1>
-        <div class="student-info">醫資二 412570089 林立傑</div> <!-- 新增的學生資訊 -->
+        <div class="student-info">醫資二 412570089 林立傑</div>
+        <button id="toggle-button">切換內容</button>
+        <p id="toggle-content" style="display: none;">這是一段可以隱藏的內容。</p> <!-- 預設隱藏 -->
     </header>
 
     <section>
