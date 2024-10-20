@@ -14,6 +14,13 @@ header {
     text-align: center;
 }
 
+.student-info {
+    font-size: 16px; /* 字體大小 */
+    color: white; /* 字體顏色 */
+    text-align: center; /* 文字置中 */
+    margin-top: 10px; /* 上邊距 */
+}
+
 h1, h2 {
     margin-bottom: 10px;
 }
