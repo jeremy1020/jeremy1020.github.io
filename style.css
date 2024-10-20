@@ -36,7 +36,7 @@ img.image-center {
     margin: 10px auto;
     width: 50%;
     max-width: 200px;
-    height: auto;
+    height: 100%;
 }
 
 footer {
